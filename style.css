@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.background{
+    background-image: url(assets/bg.jpg);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    height: 100%;
+    width:  100%;
+    background-position:center;
+    background-size: 100%;
+}
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(98, 0, 255);
+}
+
+span{
+    color: #ff00954b;
+}
+
+span:hover{
+    color: #ff0095;
+}
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    padding-top:150px;
+}
+
+header{
+    background: #68b282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #34312b;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 80px 80px 0 0;
+    margin-top: 40px;
+    box-shadow: 20px 0px 0px 0px #3c8154
+}
+
+header h1{
+    margin-top: 15px;
+}
+
+form{
+    background: #fadc31;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 20px 0px 0px 0px #e6c404  
+}
+
+
+form label{
+    font-size: 2.0rem;
+    color:black;
+}
+
+.text-wrapper{
+    
+}
+
+form input{
+    border-radius: 20px;
+    border-style: none;
+    background: #4a3e78;
+    color: 	#fadc31;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+.checkbox-login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;    
+
+    box-shadow: 5px 1.9px 0px 0px #914d75;
+
+    border-radius: 20px;
+    border-style: none;
+    background-color: #fc88ec;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #fc88cc;
+}
+
+button:active{
+    background-color: #ec7dbe;
+    transform: scale(0.98);
+    box-shadow: -5px 0px 0px 0px #947e02;
+}
+
+button img{
+    width: 20px;
+}
+
+button h3{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('assets/Valorant\ Font.ttf') format('truetype');
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
